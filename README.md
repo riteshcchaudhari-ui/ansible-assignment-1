@@ -291,7 +291,7 @@ It is a great starting point for learning:
 ansible --version
 ansible-playbook --syntax-check playbook.yml
 ansible-playbook -i inventory.ini playbook.yml
-ssh -i ~/keys/private-key.pem ubuntu@43.205.110.105
+ssh -i ~/keys/private-key.pem ubuntu@pulic-ip
 sudo docker ps
 sudo docker logs flask-app
 ```
